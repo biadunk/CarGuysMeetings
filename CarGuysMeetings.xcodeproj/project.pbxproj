@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		511E9D8B29BA40C90034128F /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511E9D8A29BA40C90034128F /* ImagePicker.swift */; };
+		512FAFB029B7F6AF00A1A78C /* AddNewMeetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512FAFAF29B7F6AF00A1A78C /* AddNewMeetView.swift */; };
 		51CDFB8229B64D4F00A8DB6E /* CarGuysMeetingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CDFB8129B64D4F00A8DB6E /* CarGuysMeetingsApp.swift */; };
 		51CDFB8429B64D4F00A8DB6E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CDFB8329B64D4F00A8DB6E /* ContentView.swift */; };
 		51CDFB8629B64D5000A8DB6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51CDFB8529B64D5000A8DB6E /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 		51CDFB9429B64D5000A8DB6E /* CarGuysMeetingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CDFB9329B64D5000A8DB6E /* CarGuysMeetingsTests.swift */; };
 		51CDFB9E29B64D5000A8DB6E /* CarGuysMeetingsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CDFB9D29B64D5000A8DB6E /* CarGuysMeetingsUITests.swift */; };
 		51CDFBA029B64D5000A8DB6E /* CarGuysMeetingsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CDFB9F29B64D5000A8DB6E /* CarGuysMeetingsUITestsLaunchTests.swift */; };
+		51CDFBAE29B6577100A8DB6E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CDFBAD29B6577100A8DB6E /* MainView.swift */; };
+		51CDFBB129B657CA00A8DB6E /* Meetings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CDFBB029B657CA00A8DB6E /* Meetings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		511E9D8A29BA40C90034128F /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		512FAFAF29B7F6AF00A1A78C /* AddNewMeetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewMeetView.swift; sourceTree = "<group>"; };
 		51CDFB7E29B64D4F00A8DB6E /* CarGuysMeetings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarGuysMeetings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51CDFB8129B64D4F00A8DB6E /* CarGuysMeetingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarGuysMeetingsApp.swift; sourceTree = "<group>"; };
 		51CDFB8329B64D4F00A8DB6E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +51,8 @@
 		51CDFB9929B64D5000A8DB6E /* CarGuysMeetingsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarGuysMeetingsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		51CDFB9D29B64D5000A8DB6E /* CarGuysMeetingsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarGuysMeetingsUITests.swift; sourceTree = "<group>"; };
 		51CDFB9F29B64D5000A8DB6E /* CarGuysMeetingsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarGuysMeetingsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		51CDFBAD29B6577100A8DB6E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		51CDFBB029B657CA00A8DB6E /* Meetings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meetings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +80,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		511E9D8C29BA40EE0034128F /* ImagePickerFile */ = {
+			isa = PBXGroup;
+			children = (
+				511E9D8A29BA40C90034128F /* ImagePicker.swift */,
+			);
+			path = ImagePickerFile;
+			sourceTree = "<group>";
+		};
+		512E61AF29B6AB9F002DC239 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		51CDFB7529B64D4F00A8DB6E = {
 			isa = PBXGroup;
 			children = (
@@ -95,11 +118,16 @@
 		51CDFB8029B64D4F00A8DB6E /* CarGuysMeetings */ = {
 			isa = PBXGroup;
 			children = (
-				51CDFB8129B64D4F00A8DB6E /* CarGuysMeetingsApp.swift */,
-				51CDFB8329B64D4F00A8DB6E /* ContentView.swift */,
+				511E9D8C29BA40EE0034128F /* ImagePickerFile */,
+				512E61AF29B6AB9F002DC239 /* Views */,
+				51CDFBAF29B657B000A8DB6E /* Structs */,
 				51CDFB8529B64D5000A8DB6E /* Assets.xcassets */,
+				51CDFB8329B64D4F00A8DB6E /* ContentView.swift */,
+				51CDFB8129B64D4F00A8DB6E /* CarGuysMeetingsApp.swift */,
+				51CDFBAD29B6577100A8DB6E /* MainView.swift */,
 				51CDFB8729B64D5000A8DB6E /* CarGuysMeetings.entitlements */,
 				51CDFB8829B64D5000A8DB6E /* Preview Content */,
+				512FAFAF29B7F6AF00A1A78C /* AddNewMeetView.swift */,
 			);
 			path = CarGuysMeetings;
 			sourceTree = "<group>";
@@ -127,6 +155,14 @@
 				51CDFB9F29B64D5000A8DB6E /* CarGuysMeetingsUITestsLaunchTests.swift */,
 			);
 			path = CarGuysMeetingsUITests;
+			sourceTree = "<group>";
+		};
+		51CDFBAF29B657B000A8DB6E /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				51CDFBB029B657CA00A8DB6E /* Meetings.swift */,
+			);
+			path = Structs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +296,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				51CDFB8429B64D4F00A8DB6E /* ContentView.swift in Sources */,
+				51CDFBB129B657CA00A8DB6E /* Meetings.swift in Sources */,
+				512FAFB029B7F6AF00A1A78C /* AddNewMeetView.swift in Sources */,
+				511E9D8B29BA40C90034128F /* ImagePicker.swift in Sources */,
+				51CDFBAE29B6577100A8DB6E /* MainView.swift in Sources */,
 				51CDFB8229B64D4F00A8DB6E /* CarGuysMeetingsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
